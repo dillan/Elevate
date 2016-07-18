@@ -56,6 +56,6 @@ public enum ParserError: ErrorProtocol, CustomStringConvertible, CustomDebugStri
 
     /// The debug description of the failure reason.
     public var debugDescription: String {
-        return self.description
+        return description
     }
 }
